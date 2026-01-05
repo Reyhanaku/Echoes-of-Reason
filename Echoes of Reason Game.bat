@@ -1,7 +1,7 @@
 ::[Bat To Exe Converter]
 ::
 ::YAwzoRdxOk+EWAjk
-::fBw5plQjdCyDJGyX8VAjFBNVXgCLAE+1EbsQ5+n//NaUqVgRWK88aoDIybGKbeIc5ED3SsV1hysK1sIPA3s=
+::fBw5plQjdCeDJHqL8Es+Lyd3YSC+GWiyCbAPqOf9r9iCo14SWt4sc5rX1vmNMu8A+UDgOJQi2H9Jp5hUXUoIMBuoYW8=
 ::YAwzuBVtJxjWCl3EqQJgSA==
 ::ZR4luwNxJguZRRnk
 ::Yhs/ulQjdF+5
@@ -10,7 +10,7 @@
 ::ZR41oxFsdFKZSDk=
 ::eBoioBt6dFKZSDk=
 ::cRo6pxp7LAbNWATEpCI=
-::egkzugNsPRvcWATEpCI=
+::egkzugNsPRvcWATEpSI=
 ::dAsiuh18IRvcCxnZtBJQ
 ::cRYluBh/LU+EWAnk
 ::YxY4rhs+aU+JeA==
@@ -26,7 +26,7 @@
 ::ZQ0/vhVqMQ3MEVWAtB9wSA==
 ::Zg8zqx1/OA3MEVWAtB9wSA==
 ::dhA7pRFwIByZRRnk
-::Zh4grVQjdCyDJGyX8VAjFBNVXgCLAE+1EbsQ5+n//NaioUUSUfF/d4mb6LGPM+8dpED8cPY=
+::Zh4grVQjdCeDJHqL8Es+Lyd3YSC+GWiyCbAPqOf9r9iCo14SWt4ae4fU36fOL+ZT2EDlZpkjmH9Cnas=
 ::YB416Ek+ZG8=
 ::
 ::
@@ -58,25 +58,6 @@ echo      3. Salah jawab = MATI.
 echo.
 echo      (Tekan tombol apa saja untuk memulai...)
 pause >nul
-goto LOADING_SCREEN
-
-:LOADING_SCREEN
-cls
-echo.
-echo [SYSTEM] INITIALIZING CONNECTION...
-echo.
-:: Trik membuat delay (tunggu) tanpa pause
-ping localhost -n 2 >nul
-echo [||||          ] 25%% - Loading Core Logic...
-ping localhost -n 2 >nul
-echo [||||||||      ] 50%% - Decrypting Files...
-ping localhost -n 2 >nul
-echo [||||||||||||  ] 75%% - Bypassing Firewall...
-ping localhost -n 2 >nul
-echo [||||||||||||||] 100%% - SYSTEM BREACHED.
-echo.
-echo ACCESS GRANTED.
-timeout /t 2 >nul
 goto INTRO
 
 :INTRO
